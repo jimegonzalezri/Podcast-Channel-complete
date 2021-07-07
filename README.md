@@ -1,2 +1,2 @@
 # Podcast-Channel-complete
-Primer proyecto CSS/HTML
+Primer proyecto completo CSS/HTML
