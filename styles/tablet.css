@@ -1,0 +1,313 @@
+@media (min-width: 768px) and (max-width: 1219px) {
+  .titulos {
+    font-size: 40px;
+    line-height: 62px;
+  }
+
+  .subtitulos {
+    font-family: var(--text-sans);
+    font-size: 19px;
+    color: #060a24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 600;
+  }
+
+  .boton {
+    width: 22.6rem;
+    height: 5rem;
+    display: flex;
+    font-family: var(--text-mono);
+    font-size: 18px;
+    font-weight: 600;
+    color: #060a24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    background-color: #00f3bb;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  .parrafos {
+    font-family: var(--text-mono);
+    font-size: 15px;
+    font-weight: 500;
+    color: #060a24;
+    line-height: 24px;
+  }
+
+  /* Header-Tablet*/
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 6rem;
+  }
+
+  .header-logo {
+    width: 3rem;
+    margin-left: 5rem;
+  }
+
+  .header-list {
+    list-style: none;
+    height: auto;
+    background-color: #ffffff;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 3rem;
+  }
+
+  .header-list li {
+    height: auto;
+  }
+
+  .header-list a {
+    font-family: var(--text-mono);
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #060a24;
+    margin-left: 1rem;
+  }
+
+  .header-list li:hover,
+  .header-list li:focus {
+    background-color: #ffffff;
+  }
+
+  .header-list a:hover {
+    color: #00f3bb;
+    text-decoration: line-through;
+  }
+
+  .header-list a:active {
+    color: #060a24;
+    opacity: 56%;
+    text-decoration: line-through;
+  }
+
+  .fas.fa-times,
+  .fas.fa-bars {
+    visibility: hidden;
+  }
+
+  .checkbox:checked ~ .header-list,
+  .checkbox:not(.checkbox:checked) ~ .header-list {
+    display: flex;
+  }
+
+  input:checked ~ .header-menu .fas.fa-times {
+    display: none;
+  }
+
+  .header-list li {
+    visibility: visible;
+  }
+
+  /* seccion1- tablet - hello world*/
+
+  .helloworld {
+    height: auto;
+    padding: 6rem 10rem 2rem 10rem;
+  }
+
+  .helloworld h1,
+  .helloworld span {
+    font-size: 48px;
+    line-height: 84px;
+  }
+
+  #tachado {
+    font-size: 48px;
+    line-height: 84px;
+  }
+
+  .helloworld p {
+    visibility: hidden;
+    font-size: 0px;
+    height: 0rem;
+    margin-top: 0rem;
+  }
+
+  .helloworld p::after {
+    content: "El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.";
+    visibility: visible;
+    width: 55rem;
+    font-size: 14px;
+  }
+
+  .helloworld .boton {
+    margin-top: 5.6rem;
+  }
+
+  /* seccion2-tablet -episodes*/
+
+  .episodes {
+    height: 90rem;
+    background: linear-gradient(to left, #0000ff, 0, #0000a3);
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .clip-path {
+    clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 5%);
+  }
+
+  .episodes h1 {
+    margin: 12rem 103.1rem 2.6rem 5rem;
+  }
+
+  .iframe {
+    max-width: 150rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: space-between;
+  }
+
+  /* seccion3-telefono + de-donde-vinimos-tablet */
+
+  .phone_vinimos {
+    height: auto;
+    flex-direction: row;
+    padding: 0rem;
+  }
+
+  .phone_vinimos_img {
+    height: 60rem;
+    width: 45.76rem;
+    margin-left: 5rem;
+  }
+
+  .phone_vinimos_text {
+    height: 42.7rem;
+    margin-top: 2.04rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .phone_vinimos h1 {
+    width: 39rem;
+    height: 6.2rem;
+  }
+
+  .phone_vinimos p {
+    width: 35rem;
+    margin-top: 2.4rem;
+    line-height: 24px;
+  }
+
+  /* seccion4-invitados-tablet*/
+
+  .invitados {
+    height: auto;
+  }
+
+  .invitados h1 {
+    width: 50rem;
+    margin-left: 5rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .invitados_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    height: 60rem;
+  }
+
+  .invitados_img {
+    width: 33.3%;
+    height: 30rem;
+  }
+
+  /* seccion5-temas-tablet*/
+
+  .temas {
+    height: auto;
+    padding: 0rem 5rem 0rem 5rem;
+  }
+
+  .temas h1 {
+    margin-top: 6.4rem;
+  }
+
+  .temas_options {
+    height: 25rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .temas_img1,
+  .temas_img2,
+  .temas_img3,
+  .temas_img4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .temas_options img {
+    margin-left: -6rem;
+    width: 7rem;
+  }
+
+  .temas h2 {
+    width: 18rem;
+    padding-left: 3rem;
+  }
+
+  /* seccion6--novedades tablet*/
+
+  .novedades {
+    height: 45rem;
+  }
+
+  .clip-path-novedades {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 25%);
+  }
+
+  .novedades h1 {
+    width: 57rem;
+    height: auto;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+  }
+
+  .novedades button {
+    width: 31rem;
+    height: 5.2rem;
+    margin-top: 3.6rem;
+  }
+
+  /*footer tablet*/
+
+  .footer {
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 3.6rem 5rem 3.1rem 5rem;
+  }
+
+  .footer p {
+    width: 26rem;
+    margin-top: 0rem;
+  }
+
+  .footer-icons {
+    width: 15rem;
+    margin-bottom: 0rem;
+  }
+
+  .fab.fa-spotify,
+  .fab.fa-instagram,
+  .fab.fa-twitter,
+  .fab.fa-facebook,
+  .fab.fa-telegram {
+    width: 1.8rem;
+    height: 2.8rem;
+  }
+}

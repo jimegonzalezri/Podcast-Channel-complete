@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Podcast Channel</title>
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <link rel="stylesheet" href="styles/desktop.css" />
+    <link rel="stylesheet" href="styles/tablet.css" />
+    <script
+      src="https://kit.fontawesome.com/9dcc3cef10.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <!-- mobile part-->
+
+  <body>
+    <div class="main-container">
+      <!--header mobile-->
+
+      <header class="header">
+        <input type="checkbox" class="checkbox" id="menu" />
+        <nav class="header-menu">
+          <img class="header-logo" src="images/logo.svg" alt="logo" />
+          <label for="menu"
+            ><i class="fas fa-bars"></i> <i class="fas fa-times"></i
+          ></label>
+        </nav>
+        <ul class="header-list">
+          <li><a href="#episodes">EPISODIOS</a></li>
+          <li><a href="#phone_vinimos">NOSOTROS</a></li>
+          <li><a href="#invitados">ENTREVISTAS</a></li>
+          <li><a href="#temas">TÓPICOS</a></li>
+        </ul>
+      </header>
+
+      <!--seccion1 mobile hello world-->
+
+      <section class="helloworld">
+        <h1 class="titulos">
+          Hello<span class="tachado" id="tachado"> world </span> pale blue dot
+          <span>.</span>
+        </h1>
+        <p class="parrafos">
+          Un podcast que explora el mundo de la programación. Nuevos episodios,
+          todos los jueves cada 15 días.
+        </p>
+        <button class="boton">CONOCÉ MÁS</button>
+      </section>
+
+      <!--seccion2 mobile episodes-->
+
+      <section class="episodes clip-path">
+        <a name="episodes"></a>
+        <h1 class="titulos">Episodios</h1>
+        <div class="iframe">
+          <iframe
+            class="iframe_podcast"
+            src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            class="iframe_podcast"
+            src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            class="iframe_podcast"
+            src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            class="iframe_podcast"
+            src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+      </section>
+
+      <!--seccion3 mobile telefono + de-donde-vinimos-->
+
+      <section class="phone_vinimos">
+        <a name="phone_vinimos"></a>
+        <img class="phone_vinimos_img" src="images/phone.png" alt="phone" />
+        <div class="phone_vinimos_text">
+          <h1 class="titulos">De dónde venimos</h1>
+          <p class="parrafos">
+            Our posturings, our imagined self-importance, the delusion that we
+            have some privileged position in the Universe, are challenged by
+            this point of pale light.
+          </p>
+          <p class="parrafos">
+            Our planet is a lonely speck in the great enveloping cosmic dark. In
+            our obscurity, in all this vastness, there is no hint that help will
+            come from elsewhere to save us from ourselves.
+          </p>
+        </div>
+      </section>
+
+      <!--seccion4 mobile invitados-->
+
+      <section class="invitados">
+        <a name="invitados"></a>
+        <h1 class="titulos">Invitadas/os estelares</h1>
+        <div class="invitados_gallery">
+          <img
+            class="invitados_img"
+            src="images/grace-hopper.png"
+            alt="grace"
+          />
+          <img
+            class="invitados_img"
+            src="images/Katie-Bouman.png"
+            alt="Katie"
+          />
+          <img
+            class="invitados_img"
+            src="images/Margaret_Hamilton.png"
+            alt="Margaret"
+          />
+          <img
+            class="invitados_img"
+            src="images/An E.R.A.Univac 1103 computer in the 1950s.png"
+            alt="Univac"
+          />
+          <img
+            class="invitados_img"
+            src="images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+            alt="Eniac"
+          />
+          <img class="invitados_img" src="images/susan-kare.png" alt="Susan" />
+        </div>
+      </section>
+
+      <!--seccion5 mobile temas-->
+
+      <section class="temas">
+        <a name="temas"></a>
+        <h1 class="titulos">Algunos de nuestros temas</h1>
+        <div class="temas_options">
+          <div class="temas_img1">
+            <img src="images/icon1.svg" alt="remoto" />
+            <h2 class="subtitulos">Trabajo remoto</h2>
+          </div>
+          <div class="temas_img2">
+            <img src="images/icon2.svg" alt="programación" />
+            <h2 class="subtitulos">Repensando la programación</h2>
+          </div>
+          <div class="temas_img3">
+            <img src="images/icon3.svg" alt="código" />
+            <h2 class="subtitulos">Bases del código</h2>
+          </div>
+          <div class="temas_img4">
+            <img src="images/icon4.svg" alt="seguridad" />
+            <h2 class="subtitulos">Seguridad informática</h2>
+          </div>
+        </div>
+      </section>
+
+      <!--seccion6 mobile novedades-->
+
+      <section class="novedades clip-path-novedades">
+        <h1 class="titulos">¿Querés las últimas novedades?</h1>
+        <button class="boton">ESCUCHÁ LOS EPISODIOS</button>
+      </section>
+
+      <!--footer mobile-->
+
+      <footer class="footer">
+        <p class="parrafos">© 2019- Hello blue pale dot</p>
+        <div class="footer-icons">
+          <a href="https://www.spotify.com/co/"
+            ><i class="fab fa-spotify"></i
+          ></a>
+          <a href="https://www.instagram.com/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/?lang=es"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://es-la.facebook.com/"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://web.telegram.org/#/login"
+            ><i class="fab fa-telegram"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

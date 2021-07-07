@@ -1,0 +1,295 @@
+/*
+  _____________________________
+  Responsive
+  ------------------------------
+  */
+
+/* Header-Responsive*/
+
+@media (min-width: 1220px) {
+  /*clases generales*/
+
+  .titulos {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  .boton {
+    width: 22.6rem;
+    height: 5.6rem;
+  }
+
+  .parrafos {
+    font-family: var(--text-mono);
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* Header-Desktop*/
+
+  .header {
+    flex-direction: row;
+    align-items: center;
+    height: 8rem;
+  }
+
+  .header-logo {
+    width: 3.6rem;
+    margin-left: 10rem;
+  }
+
+  .header-list {
+    height: auto;
+    background-color: #ffffff;
+    flex-direction: row;
+    margin-right: 10rem;
+  }
+
+  .header-list a {
+    font-weight: 500;
+    color: #060a24;
+    margin-left: 4.8rem;
+  }
+
+  .header-list li:hover,
+  .header-list li:focus {
+    background-color: #ffffff;
+  }
+
+  .header-list a:hover {
+    color: #00f3bb;
+    text-decoration: line-through;
+  }
+
+  .header-list a:active {
+    color: #060a24;
+    opacity: 56%;
+    text-decoration: line-through;
+  }
+
+  .fas.fa-times,
+  .fas.fa-bars {
+    visibility: hidden;
+  }
+
+  .checkbox:checked ~ .header-list,
+  .checkbox:not(.checkbox:checked) ~ .header-list {
+    display: flex;
+  }
+
+  /* seccion1- desktop - hello world*/
+
+  .helloworld {
+    height: auto;
+    padding: 12rem 0rem 0.5rem 20rem;
+  }
+
+  .helloworld h1,
+  .helloworld span {
+    font-size: 64px;
+    line-height: 84px;
+  }
+
+  #tachado {
+    font-size: 64px;
+    line-height: 84px;
+  }
+
+  .helloworld p {
+    visibility: hidden;
+    margin-top: 0rem;
+  }
+
+  .helloworld p::after {
+    content: "El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.";
+    visibility: visible;
+    width: 62.8rem;
+    font-size: 16px;
+    display: flex;
+  }
+
+  .helloworld .boton {
+    margin-top: 5.6rem;
+  }
+
+  .helloworld span {
+    color: #0000ec;
+  }
+
+  /* seccion2- desktop -episodes*/
+
+  .episodes {
+    height: 104.26rem;
+    background: linear-gradient(to left, #0000ff, 0, #0000a3);
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .clip-path {
+    clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 5%);
+  }
+
+  .episodes h1 {
+    margin: 12rem 103.1rem 2.6rem 10rem;
+  }
+
+  .iframe {
+    max-width: 150rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 7.2rem;
+    justify-content: space-between;
+  }
+
+  .iframe_podcast {
+    width: 47rem;
+  }
+
+  /* seccion3-telefono + de-donde-vinimos-desktop */
+
+  .phone_vinimos {
+    height: 55.54rem;
+    flex-direction: row;
+    padding: 0rem;
+  }
+
+  .phone_vinimos_img {
+    width: 46.4rem;
+    height: 66rem;
+    width: 45.76rem;
+    margin-left: 20rem;
+    margin-top: -18rem;
+  }
+
+  .phone_vinimos_text {
+    height: 42.7rem;
+    margin-top: 2.04rem;
+    margin-left: 6.24rem;
+  }
+
+  .phone_vinimos h1 {
+    width: 39.9rem;
+    height: 6.2rem;
+    font-size: 46px;
+  }
+
+  .phone_vinimos p {
+    width: 46.4rem;
+    margin-top: 2.4rem;
+    line-height: 24px;
+  }
+
+  /* seccion4-invitados-desktop*/
+
+  .invitados {
+    height: 82.6rem;
+  }
+
+  .invitados h1 {
+    width: 49.1rem;
+    height: 6.2rem;
+    margin-left: 20rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .invitados_gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .invitados_img {
+    width: 33.3%;
+    height: 36.4rem;
+  }
+
+  /* seccion5-temas-desktop*/
+
+  .temas {
+    height: 42.6rem;
+    padding: 0rem 20rem 0rem 20rem;
+  }
+
+  .temas h1 {
+    margin-top: 6.4rem;
+  }
+
+  .temas_options {
+    height: 30rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .temas_img1,
+  .temas_img2,
+  .temas_img3,
+  .temas_img4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6.9rem;
+  }
+
+  .temas_options img {
+    margin-left: -6rem;
+  }
+
+  .temas h2 {
+    width: 22rem;
+    padding-left: 3rem;
+  }
+
+  /* seccion6--novedades desktop*/
+
+  .novedades {
+    height: 51.8rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clip-path-novedades {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 25%);
+  }
+
+  .novedades h1 {
+    width: 69.2rem;
+    height: 6.2rem;
+    color: #ffffff;
+    margin-top: 10rem;
+    margin-bottom: 0rem;
+  }
+
+  .novedades button {
+    width: 34.5rem;
+    height: 5.6rem;
+    margin-top: 3.6rem;
+  }
+
+  /*footer desktop*/
+
+  .footer {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 3.6rem 10rem 3.1rem 10rem;
+  }
+
+  .footer p {
+    width: 26.9rem;
+    margin-top: 0rem;
+  }
+
+  .footer-icons {
+    width: 25.2rem;
+    margin-bottom: 0rem;
+  }
+
+  .fab.fa-spotify,
+  .fab.fa-instagram,
+  .fab.fa-twitter,
+  .fab.fa-facebook,
+  .fab.fa-telegram {
+    width: 1.8rem;
+    height: 2.8rem;
+  }
+}
